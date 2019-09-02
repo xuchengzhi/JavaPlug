@@ -101,4 +101,11 @@ public class Server implements RpcService.Iface{
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+
+	@Override
+	public String javaServer() throws TException {
+		// TODO Auto-generated method stub
+		return "javaServer";
+	}
 }
